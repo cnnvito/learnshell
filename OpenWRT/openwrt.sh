@@ -84,7 +84,7 @@ case $CHOOSE in
 		echo
 		echo
 		echo "正在下载Lean大的默认配置文件......"
-		curl -O http://download.cnvito.top/.config-lean
+		curl -O https://raw.githubusercontent.com/cnnvito/learnshell/master/OpenWRT/conf/.config-lean 
 	break
 	;;
 	2)
@@ -92,7 +92,7 @@ case $CHOOSE in
 		echo
 		echo
 		echo "正在下载博主的配置文件......"
-		curl -O http://download.cnvito.top/.config-bozhu
+		curl -O https://raw.githubusercontent.com/cnnvito/learnshell/master/OpenWRT/conf/.config-bozhu 
 	break
 	;;
 	3)
